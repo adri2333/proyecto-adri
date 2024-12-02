@@ -1,0 +1,108 @@
+body {
+    font-family: Arial, sans-serif ;
+    margin: 10px;
+    padding: 10px;
+    background-image: url('img/Tiger - Symbol of Power and Strength.jfif'); /* Imagen para el fondo */
+    background-repeat: repeat;
+    color: rgb(226, 3, 3);
+}
+header {
+    background-color: #000000;
+    color: rgb(245, 217, 217);
+    padding: 20px 0px;
+    text-align: center;
+}
+nav ul {
+    list-style: none;
+    padding: 10px;
+    text-align: center;
+    background-color: #ec0404;
+}
+nav ul li {
+    display: inline;
+    margin-right: 60px;
+}
+nav ul li a {
+    color: rgba(0, 0, 0, 0.993);
+    text-decoration: none;
+}
+main section {
+    padding: 50px;
+    margin: 10px;
+    background-color: rgb(216, 0, 0); /* Fondo negro semi-transparente */
+    border-radius: 44px;
+}
+footer {
+    text-align: center;
+    padding: 30px 0;
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+}
+.gallery {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.gallery img {
+    width: 30%;
+    margin: 40px 0;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 0px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
+form label {
+    margin-top: 50px;
+}
+form input, form textarea {
+    margin-top: 5px;
+    padding: 10px;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+}
+form button {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+form button:hover {
+    background-color: #000000;
+}
+.carousel{
+    width: 900px; ;
+    height: 1000px;  
+    padding: 0px;
+   color: #000;
+}
+.Inicio{
+color: #000000;
+}
+.Nosotros{
+    color: #000000;
+}
+.catalogo{
+    color: #000000;
+}
+.Contacto{
+    color: #000000;
+}
+.Contacto2{
+    color: #000000;
+    background-color: rgb(216, 0, 0);
+    border-radius: 60px;
+    padding: 20px;
+    margin: 10px;
+}
+.catalogo2{
+    color: #000000;
+    background-color: rgb(216, 0, 0);
+    border-radius: 60px;
+    padding: 50px;
+    margin: 20px;
+}
